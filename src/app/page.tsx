@@ -1,4 +1,6 @@
 import Skills from "@/components/Skills"
+import Contact from "@/components/contact"
+import Projects from "@/components/projects"
 import SectionDivider from "@/components/section-divider"
 import Link from "next/link"
 import { BsArrowRight, BsGithub, BsLinkedin } from 'react-icons/bs'
@@ -52,6 +54,8 @@ export default function Home() {
     <section className="flex flex-col items-center w-full text-center sm:mt-0 mt-10">
       <SectionDivider />
       <Skills />
+      <Projects />
+      <Contact />
     </section>
     </>
   )
