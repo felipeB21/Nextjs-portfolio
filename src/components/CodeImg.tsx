@@ -1,4 +1,3 @@
-
 import Link from "next/link";
 import Image from "next/image";
 import HTML_IMG from '@/../public/code-img/html.png'
@@ -83,7 +82,7 @@ export default function CodeImg() {
         <div className="animate-fade-right animate-once animate-duration-3000 animate-ease-in-out lg:flex items-center justify-center gap-6 grid grid-cols-6 justify-items-center place-content-center ">
             {IMAGES_URL.map(images => (
                 <Link href={images.path} key={images.name} target="_blank">
-                    <Image className="hover:-translate-y-1 duration-500" src={images.img} alt={`Image of ${images.name}`} width={50} height={50}/>
+                    <Image className="hover:-translate-y-1 duration-500 w-auto h-auto" src={images.img} alt={`Image of ${images.name}`} width={50} height={50}/>
                 </Link>
             ))}
         </div>

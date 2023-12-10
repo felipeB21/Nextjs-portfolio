@@ -1,4 +1,6 @@
 import Skills from "@/components/Skills"
+import Contact from "@/components/contact"
+import Projects from "@/components/projects"
 import SectionDivider from "@/components/section-divider"
 import Link from "next/link"
 import { BsArrowRight, BsGithub, BsLinkedin } from 'react-icons/bs'
@@ -9,7 +11,7 @@ export default function Home() {
     <>
     <main className="mt-20 flex lg:flex-row flex-col gap-6 lg:gap-0 justify-between lg:items-start items-center lg:text-start text-center animate-fade-down animate-duration-[2000ms]">
       <div>
-        <p className="text-xl">Hello! 👋, im <strong>Felipe Bolgar</strong>.</p>
+        <p className="text-xl">Hello! 👋, I&apos;m <strong>Felipe Bolgar</strong>.</p>
         <div className="sm:text-7xl text-6xl bg-gradient-to-r from-blue-600 to-purple-500 inline-block text-transparent bg-clip-text font-bold">
           <h1>Full Stack</h1>
           <span>Developer</span>
@@ -52,6 +54,8 @@ export default function Home() {
     <section className="flex flex-col items-center w-full text-center">
       <SectionDivider />
       <Skills />
+      <Projects />
+      <Contact />
     </section>
     </>
   )
