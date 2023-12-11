@@ -16,6 +16,9 @@ export default function Projects() {
           ))
         }
       </div>
+      <div className='mt-8'>
+        <a className='px-8 py-2 bg-zinc-700/80 rounded-full hover:bg-zinc-800 duration-200' href="https://github.com/felipeB21" target='_blank'>See more</a>
+      </div>
     </section>
   )
 }

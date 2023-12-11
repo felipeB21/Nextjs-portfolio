@@ -1,5 +1,6 @@
 import Skills from "@/components/Skills"
 import Contact from "@/components/contact"
+import Footer from "@/components/footer"
 import Projects from "@/components/projects"
 import SectionDivider from "@/components/section-divider"
 import Link from "next/link"
@@ -57,6 +58,7 @@ export default function Home() {
       <Projects />
       <Contact />
     </section>
+    <Footer />
     </>
   )
 }
