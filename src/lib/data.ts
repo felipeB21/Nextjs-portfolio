@@ -14,7 +14,7 @@ export const projectsData = [
     },
     {
         title: 'JoguiGas',
-        description: 'This is my biggest project, a toilet e-commerce. Im working on it, doing the design of the page and database',
+        description: 'This is my biggest project, a sanitory e-commerce. Im working on it, doing the design of the page and database',
         tags: ['NextJS', 'React', 'MongoDB', 'Tailwind'],
         imageUrl: '/soon.png'
     }
