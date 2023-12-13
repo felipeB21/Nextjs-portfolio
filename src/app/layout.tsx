@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Felipe Bolgar | Portfolio',
-  description: 'TODO',
+  description: 'Welcome to my Full-Stack Developer portfolio, where innovation meets functionality! I am a passionate and results-driven developer with a proven track record of creating seamless, user-centric web applications from concept to deployment. With a diverse skill set that spans both front-end and back-end technologies, I bring a holistic approach to web development.',
 }
 
 export default function RootLayout({
