@@ -7,11 +7,11 @@ export const projectsData = [
     imageUrl: "/todo.png",
   },
   {
-    title: "IntroSection",
+    title: "Blog",
     description:
-      "This is a work that I did as a practice that the Frontend mentor page offers you, in this project there is a drop-down hamburger menu",
-    tags: ["Astro", "Tailwind"],
-    imageUrl: "/intro-section.png",
+      "Dive into the dynamic world of programming and stay ahead of the curve with my regularly updated blog.",
+    tags: ["Nextjs", "Tailwind", "WeatherAPI"],
+    imageUrl: "/blog.png",
   },
   {
     title: "JoguiGas",
