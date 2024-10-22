@@ -29,7 +29,7 @@ export default function Home() {
                 </Link>
 
                 <a
-                  href="/FelipeBolgar.pdf"
+                  href="/felipebolgar-cv.pdf"
                   download
                   className="group text-lg bg-white text-black flex items-center gap-2 w-max px-4 py-1 rounded-full outline-none focus:scale-105 hover:bg-gray-300 transition duration-300"
                 >
